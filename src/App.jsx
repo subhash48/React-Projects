@@ -1,11 +1,13 @@
 // import Counter from "./components/Counter";
-import Todo from "./components/Todo";
+//import Todo from "./components/Todo";
+import Meals from "./components/Meals";
 
-export const App = () => {
+const App = () => {
   return (
     <div>
        {/* <Counter/> */}
-       <Todo/>
+       {/* <Todo/> */}
+       <Meals/>
     </div>
   )
 }
