@@ -2,8 +2,9 @@
 //import Todo from "./components/Todo";
 //import Meals from "./components/Meals";
 //import Calculate from "./components/Calculator";
+//import ToggleBackgroundColor from "./components/ToggleBackgroundColor";
 
-import ToggleBackgroundColor from "./components/ToggleBackgroundColor";
+import HiddenSearchBar from "./components/HiddenSearchBar";
 
 const App = () => {
   return (
@@ -13,7 +14,8 @@ const App = () => {
        {/* <Todo/> */}
        {/* <Meals/>  */}
        {/* <Calculate/> */}
-       <ToggleBackgroundColor/>
+       {/* <ToggleBackgroundColor/> */}
+       <HiddenSearchBar/>
     </div>
 
   )
